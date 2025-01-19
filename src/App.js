@@ -6,10 +6,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import { GithubProvider } from './context/github/GithubContext';
-import AlertContext, { AlertProvider } from './context/alert/alertContext';
 import Alert from './components/layout/Alert';
 import User from './pages/User';
-
+import { AlertProvider } from './context/alert/alertContext';
 function App() {
   return (
     <AlertProvider>
